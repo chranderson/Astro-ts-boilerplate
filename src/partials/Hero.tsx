@@ -4,13 +4,20 @@ import {
   HeroSocial,
   Section,
 } from 'astro-boilerplate-components';
+// import { Img } from 'astro-imagetools/components';
 
 const Hero = () => (
   <Section>
+    <img
+      src="/assets/images/ziggy.png"
+      alt="A random image"
+      loading="lazy"
+      className="h-[500px] w-full rounded-md bg-center object-cover object-center"
+    />
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
+          Hi there, I'm <GradientText>Ziggy</GradientText>
         </>
       }
       description={
