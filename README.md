@@ -60,37 +60,6 @@ While Astro-boilerplate should work with the latest Node version, it has been
 tested with the versions in .nvmrc & the bottom of package.json. At current
 writing, that's Node v16.15.1
 
-### Getting started
-
-Run the following command on your local environment:
-
-``` bash
-git clone --depth=1 https://github.com/ixartz/Astro-boilerplate
-cd my-project-name
-npm install
-```
-
-Then, you can run locally in development mode with live reload:
-
-``` bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your favorite browser
-to see your project.
-
-### Deploy to production (manual)
-
-You can create an optimized production build with:
-
-```shell
-npm run build
-```
-
-Now, your blog is ready to be deployed. All generated files are located at
-`dist` folder, which you can deploy the folder to any hosting service you
-prefer.
-
 ### Deploy to Netlify
 
 Clone this repository on own GitHub account and deploy to Netlify:
